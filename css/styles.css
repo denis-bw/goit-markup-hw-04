@@ -118,10 +118,10 @@ body{
     color: var(--barand-color);
 }
 
-.header-address:hover .icon-mail,
-.header-address:focus .icon-mail,
-.header-address:hover .icon-telef,
-.header-address:focus .icon-telef {
+.link-header:hover .icon-mail,
+.link-header:focus .icon-mail,
+.link-header:hover .icon-telef,
+.link-header:focus .icon-telef {
     fill: var(--barand-color);
 }
 
@@ -143,13 +143,13 @@ body{
 .icon-mail {
     width: 16px;
     height: 12px;
-    fill: #757575;
+    fill: currentColor;
 }
 
 .icon-telef {
     width: 10px;
     height: 16px;
-    fill: #757575;
+    fill: currentColor;
 }
 
 .text-header{
@@ -225,7 +225,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px 100px;
+    min-height: 120px;
+    min-width: 270px;
     margin-bottom: 30px;
 
     background: #F5F4FA;
@@ -307,10 +308,7 @@ body{
     display: flex;
     justify-content: center;
     column-gap: 10px;
-    margin-top: 16px;
     padding-bottom: 30px;
-    padding-left: 32px;
-    padding-right: 32px;
 }
 
 .social-link {
@@ -344,6 +342,7 @@ body{
 }
 
 .text-profession{
+    margin-bottom: 16px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -393,7 +392,7 @@ body{
 
 .link-item-icon:hover,
 .link-item-icon:focus {
-    border: 1px solid var(--barand-color)
+    border-color: var(--barand-color)
 }
 
 .link-item-icon:hover .section-item,
@@ -529,6 +528,7 @@ body{
 }
 
 .box-content-link{
+    text-decoration: none;
     display: block;
 }
 
@@ -546,6 +546,7 @@ body{
 .h-box{
     margin-bottom: 4px;
 
+    color: #212121;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
