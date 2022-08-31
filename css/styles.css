@@ -118,13 +118,6 @@ body{
     color: var(--barand-color);
 }
 
-.link-header:hover .icon-mail,
-.link-header:focus .icon-mail,
-.link-header:hover .icon-telef,
-.link-header:focus .icon-telef {
-    fill: var(--barand-color);
-}
-
 
 .link-header{  
     display: flex;
